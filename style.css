@@ -16,7 +16,9 @@ body, html {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: #222;
+  /* background-color: #222; */
+  background-color: rgb(124, 25, 25);
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -310,7 +312,7 @@ body, html {
 .project-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
+  gap: 20px;
   justify-content: center;
 }
 
